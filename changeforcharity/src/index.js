@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './fonts/FiraSans-Medium.ttf';
+import './fonts/FiraSans-MediumItalic.ttf'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans&display=swap');
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+@font-face {
+  font-family: 'Karla', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Comforta|Open+Sansa&display=swap')
 }
 
 .App-header {
