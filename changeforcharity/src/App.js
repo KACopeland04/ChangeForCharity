@@ -105,7 +105,7 @@ const CoinImage2 = styled.div`
   display: inline-block;
   opacity: 0.85;
   position: relative;
-  top: -420px;
+  top: -410px;
   right: -1200px;
   & > img {
     height: 150px;
@@ -151,14 +151,14 @@ const EndBar = styled.div`
 `;
 
 const NavBar = styled.div`
-  float: right;
+  float: left;
+  text-align: left;
   background-color: black;
   opacity: 0.85;
   height: 25px;
   width: 100%;
   font-size: 20px;
   color: white;
-  text-align: right;
   a {
     text-decoration: none;
     color: white;
@@ -211,6 +211,10 @@ function App() {
     <Wrap1>
     <WrapText>
        <NavBar>
+       &nbsp;&nbsp;&nbsp;&nbsp; <a href="/AboutUs"> <font color="white">About Us</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://google.com"> <font color="white"> How it Works </font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="/DisplayMap"> <font color="white">Explore Nearby Charities</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://google.com"> <font color="white">Find Causes for You</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://google.com">
             <font color="white">Log In</font>
             </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -233,7 +237,6 @@ function App() {
         <Button myLink = "https://google.com" myText = "Explore Your Interests"></Button> 
         <Button myLink = "https://google.com" myText = "Create An Account"></Button> </ImportantButton1>
         </Wrap2>
-        <MapContainter></MapContainter>
         <EndBar>
           <font color="white">Created by Karen Copeland, Shruti Verma, and Morgan McNulty. October 2019, YHacks</font>
         </EndBar>
