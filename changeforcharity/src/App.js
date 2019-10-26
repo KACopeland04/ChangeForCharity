@@ -6,6 +6,8 @@ import ProfilePicture from "./ProfilePicture.png";
 import Coin from "./Coin.png";
 import Button from "./Button.js";
 import Background from "./Background2.png"
+import MapContainter from './MapContainer.js';
+
 const Wrap = styled.div`
   color: black;
   font-size: 50px;
@@ -231,6 +233,7 @@ function App() {
         <Button myLink = "https://google.com" myText = "Explore Your Interests"></Button> 
         <Button myLink = "https://google.com" myText = "Create An Account"></Button> </ImportantButton1>
         </Wrap2>
+        <MapContainter></MapContainter>
         <EndBar>
           <font color="white">Created by Karen Copeland, Shruti Verma, and Morgan McNulty. October 2019, YHacks</font>
         </EndBar>
