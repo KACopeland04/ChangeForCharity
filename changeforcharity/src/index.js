@@ -7,6 +7,11 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import CreditCard from './CreditCard.js'
 import DisplayMap from './DisplayMap.jsx'
 import AboutUs from './AboutUs.js'
+import HowItWorks from './HowItWorks.js'
+import Interests from './Interests.js'
+import Login from './Login.js'
+import UserPage from './UserPage.js'
+import ManualInput from './ManualInput.js'
 import './fonts/FiraSans-Medium.ttf';
 import './fonts/FiraSans-MediumItalic.ttf'
 //<script src="https://js.stripe.com/v3/" />
@@ -17,6 +22,11 @@ const routing = (
         <Route path="/CreditCard" component={CreditCard} />
         <Route path="/DisplayMap" component={DisplayMap} />
         <Route path="/AboutUs" component={AboutUs} />
+        <Route path="/HowitWorks" component ={HowItWorks} />
+        <Route path="/Interests" component={Interests} />
+        <Route path="/Login" component={Login} />
+        <Route path="/UserPage" component={UserPage} />
+        <Route path="/ManualInput" component={ManualInput} />
       </div>
     </Router>
   )

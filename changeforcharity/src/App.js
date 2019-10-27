@@ -144,7 +144,7 @@ const EndBar = styled.div`
   height: 25px;
   width: 100%;
   position: relative;
-  bottom: -25px;
+  bottom: 0px;
   font-size: 15px;
   color: white;
   text-align: right;
@@ -211,11 +211,11 @@ function App() {
     <Wrap1>
     <WrapText>
        <NavBar>
-       &nbsp;&nbsp;&nbsp;&nbsp; <a href="/AboutUs"> <font color="white">About Us</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://google.com"> <font color="white"> How it Works </font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp; <a href="/"> <font color="white">Home</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/AboutUs"> <font color="white">About Us</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="/HowitWorks"> <font color="white"> How it Works </font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="/DisplayMap"> <font color="white">Explore Nearby Charities</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://google.com"> <font color="white">Find Causes for You</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://google.com">
+            <a href="/Interests"> <font color="white">Find Causes for You</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="/Login">
             <font color="white">Log In</font>
             </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://google.com">
@@ -225,18 +225,6 @@ function App() {
         <CoinImage> <img src ={Coin} /> </CoinImage> <Header>  CHANGE FOR CHARITY </Header> <CoinImage2> <img src ={Coin} /> </CoinImage2>
         </WrapText>
         </Wrap1>
-        <DivBar></DivBar> 
-        <WhoAreWeHeader> Who Are We? </WhoAreWeHeader> 
-        <Wrap2>
-        <p> </p>
-        <MissionStatement> <p>Our goal at Change for Charity is to connect YOU to your community! Every action, no matter how small, can help build up your local organizations. We hope to give you the power to make a difference in communities and causes that are important to you, helping them grow and thrive.</p> </MissionStatement>
-        <HowItWorksHeader> How Does it Work? </HowItWorksHeader>
-        <HowItWorks> <p> Every time you make a purchase, the cost is rounded up to the nearest dollar and the extra change is added to and stored in your account balance. At the end of the month, you can choose a local charity (or have one recommended to you based on your interests) to donate your spare change to!</p></HowItWorks>
-        <GetStartedHeader> Get Started Today! </GetStartedHeader> 
-        <ImportantButton1><Button myLink = "https://google.com" myText = "Charities Near You"></Button>
-        <Button myLink = "https://google.com" myText = "Explore Your Interests"></Button> 
-        <Button myLink = "https://google.com" myText = "Create An Account"></Button> </ImportantButton1>
-        </Wrap2>
         <EndBar>
           <font color="white">Created by Karen Copeland, Shruti Verma, and Morgan McNulty. October 2019, YHacks</font>
         </EndBar>

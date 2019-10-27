@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import styled from "styled-components";
-import Charity1 from "./charity1.jpg";
-import Donating from "./Donating.jpg";
-import Charity2 from "./charity2.jpg";
+import Picture2 from "./picture2.jpg";
 const NavBar = styled.div`
   float: left;
   text-align: left;
@@ -70,7 +68,7 @@ const EndBar = styled.div`
   height: 25px;
   width: 100%;
   position: relative;
-  bottom: -135px;
+  bottom: -110px;
   font-size: 15px;
   color: white;
   text-align: right;
@@ -82,9 +80,9 @@ const MissionStatement = styled.div`
   font-size: 25px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 80px;
+  margin-top: 15px;
 `;
-const WhoAreWeHeader = styled.div`
+const HowItWorksHeader = styled.div`
 background-color: white;
 text-align: center;
 color: #02525B;
@@ -96,20 +94,34 @@ const Images = styled.div`
 & > img
 {
  display: inline-block;
- position:relative;
-bottom: -135px;
-  width: 462px;
+  margin-left: 32%;
+  margin-right: 20%;
+  margin-top: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 500px;
   height: 300px;
 }
   }
 `;
-class AboutUs extends Component {
+
+const HowItWorksText =  styled.div`
+  text-align: center;
+  font-size: 25px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 35px;
+`;
+
+
+class HowItWorks extends Component {
  render() {
    return (
     <Wrap>
         <NavBar>
         &nbsp;&nbsp;&nbsp;&nbsp; <a href="/"> <font color="white">Home</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/AboutUs"> <font color="white">About Us</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="/HowitWorks"> <font color="white"> How it Works </font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://google.com"> <font color="white"> How it Works </font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="/DisplayMap"> <font color="white">Explore Nearby Charities</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="/Interests"> <font color="white">Find Causes for You</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://google.com">
@@ -119,10 +131,9 @@ class AboutUs extends Component {
             <font color="white">Sign Up</font>
             </a> 
         </NavBar>
-    <WhoAreWeHeader><h1>Who Are We? </h1> </WhoAreWeHeader> 
-        <p> </p>
-        <MissionStatement> <p>Our goal at Change for Charity is to connect YOU to your community! Every action, no matter how small, can help build up your local organizations. We hope to give you the power to make a difference in communities and causes that are important to you, helping them grow and thrive.</p> </MissionStatement>
-        <Images> <img src={Charity1} /> <img src={Charity2} /> <img src={Donating} /></Images>
+        <HowItWorksHeader> <h1>How Does it Work? </h1></HowItWorksHeader>
+        <HowItWorksText> <p> Every time you make a purchase, the cost is rounded up to the nearest dollar and the extra change is added to and stored in your account balance. At the end of the month, you can choose a local charity (or have one recommended to you based on your interests) to donate your spare change to!</p></HowItWorksText>
+        <Images><img src={Picture2} /> </Images>
         <EndBar>
             <font color="white">Created by Karen Copeland, Shruti Verma, and Morgan McNulty. October 2019, YHacks</font>
         </EndBar>
@@ -130,5 +141,5 @@ class AboutUs extends Component {
    );
  }
 }
-AboutUs.label = "About Us";
-export default AboutUs;
+HowItWorks.label = "HowItWorks";
+export default HowItWorks;

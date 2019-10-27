@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 const Wrap = styled.button`
-  background: #02525B;
+  background: #009B97;
   border-radius: 8px;
   color: white;
   height: 100px;

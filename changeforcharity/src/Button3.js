@@ -6,11 +6,11 @@ const Wrap = styled.button`
    color: white;
    height: 200px;
    width: 200px;
-   font-size: 17px;
+   font-size: 20px;
    text-align: center;
    margin-left: 110px;
 `;
-class Button2 extends Component {
+class Button3 extends Component {
    constructor(props) {
        super(props);
        this.state = {isClicked: false};
@@ -28,10 +28,10 @@ class Button2 extends Component {
        {
        return (
            <Wrap>
-               <button type="button"><a href="https://google.com">High School</a></button>
-               <button type="button"><a href="https://google.com">Elementary School</a></button>
-               <button type="button"><a href="https://google.com">College/University</a></button>
-               <button type="button"><a href="https://google.com">Middle School</a></button>
+               <button type="button"><a href="https://google.com">Shelters</a></button>
+               <button type="button"><a href="https://google.com">Animal Abuse Prevention</a></button>
+               <button type="button"><a href="https://google.com">Endangered Species</a></button>
+               <button type="button"><a href="https://google.com">Invasive Species</a></button>
                </Wrap>
            )
        }
@@ -43,5 +43,5 @@ class Button2 extends Component {
        }
 }
 }
-Button2.label = "Button2 Component";
-export default Button2;
+Button3.label = "Button3";
+export default Button3;
