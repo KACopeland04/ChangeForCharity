@@ -20,6 +20,7 @@ export default function Enter(props)
   }
   function handleSubmit(event){
       event.preventDefault();
+      total = 100-parseInt({Cents});
   }
 return (
    <Wrap>
@@ -43,14 +44,13 @@ return (
                        type="Cents"
                        />
                </FormGroup>
-               <Button block bsSize="large" type="submit" href="/UserPage">
+               <Button block bsSize="large" type="submit" href="/UserPage2">
                    Enter
                </Button>
            </form>
        </div>
    </Wrap>
    )
-   total = validateForm()+current;
 }
 
 export {total};

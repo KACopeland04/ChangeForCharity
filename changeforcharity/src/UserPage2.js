@@ -147,7 +147,7 @@ function UserPage() {
             <a href="https://google.com">
             <font color="white">Sign Up</font>
             </a> </NavBar>
-           <Total> Total: 0 Cents </Total>
+           <Total> Total: 30 Cents </Total>
            <DaysRemaining> Days Remaining: 5 </DaysRemaining>
            <Welcome> Welcome to Change for Charity! </Welcome>
            <TextWrap>
@@ -156,8 +156,8 @@ function UserPage() {
            <Buttons><Button myText = "Manage Your Cards" myLink = "/CreditCard"></Button></Buttons>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            <Buttons><Button myText = "Manual Input" myLink ="/ManualInput"></Button></Buttons>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            <br></br> <br></br>
-           <Buttons><Button myText = "Your Charities" myLink="/Charities"></Button></Buttons>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <Buttons><Button myText = "DONATE!" myLink ="/Donate"></Button></Buttons>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <Buttons><Button myText = "Your Charities" myLink = "/Charities"></Button></Buttons>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <Buttons><Button myText = "DONATE!" myLink="/Donate"></Button></Buttons>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            <EndBar><font color="white">Created by Karen Copeland, Shruti Verma, and Morgan McNulty. October 2019, YHacks</font></EndBar>
        </Wrapper>
    );

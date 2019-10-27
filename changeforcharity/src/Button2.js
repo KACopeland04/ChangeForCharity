@@ -29,7 +29,7 @@ class Button2 extends Component {
        return (
            <Wrap>
                <button type="button"><a href="https://google.com">High School</a></button>
-               <button type="button"><a href="https://google.com">Elementary School</a></button>
+               <button type="button"><a href="/DisplayMap2">Elementary School</a></button>
                <button type="button"><a href="https://google.com">College/University</a></button>
                <button type="button"><a href="https://google.com">Middle School</a></button>
                </Wrap>

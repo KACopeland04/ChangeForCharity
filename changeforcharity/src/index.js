@@ -12,6 +12,10 @@ import Interests from './Interests.js'
 import Login from './Login.js'
 import UserPage from './UserPage.js'
 import ManualInput from './ManualInput.js'
+import UserPage2 from './UserPage2.js'
+import Charities from './Charities.js'
+import Donate from './Donate.js'
+import DisplayMap2 from './DisplayMap2.js'
 import './fonts/FiraSans-Medium.ttf';
 import './fonts/FiraSans-MediumItalic.ttf'
 //<script src="https://js.stripe.com/v3/" />
@@ -27,6 +31,10 @@ const routing = (
         <Route path="/Login" component={Login} />
         <Route path="/UserPage" component={UserPage} />
         <Route path="/ManualInput" component={ManualInput} />
+        <Route path="/UserPage2" component={UserPage2} />
+        <Route path="/Charities" component={Charities} />
+        <Route path ="/Donate" component={Donate} />
+        <Route path="/DisplayMap2" component={DisplayMap2} />
       </div>
     </Router>
   )

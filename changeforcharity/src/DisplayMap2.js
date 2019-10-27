@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import styled from "styled-components";
-import MapContainter from './MapContainer.js';
+import MapContainer2 from './MapContainer2.js';
 const Wrap = styled.div`
   background-color: white;
   text-align: center;
@@ -69,7 +69,7 @@ const NavBar = styled.div`
 const Wrapper = styled.div`
  height: 1vw;
 `;
-class DisplayMap extends Component {
+class DisplayMap2 extends Component {
  render() {
    return (
     <Wrapper>
@@ -85,10 +85,10 @@ class DisplayMap extends Component {
         <font color="white">Sign Up</font>
         </a> 
     </NavBar>
-    <Wrap> <h1> These are the charities in your area! </h1>
-    <MapContainter></MapContainter></Wrap></Wrapper>
+    <Wrap> <h1> These are the charities in your area that match your interests! </h1>
+    <MapContainer2></MapContainer2></Wrap></Wrapper>
    );
  }
 }
-DisplayMap.label = "Display Map";
-export default DisplayMap;
+DisplayMap2.label = "DisplayMap2";
+export default DisplayMap2;
